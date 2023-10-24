@@ -1,0 +1,51 @@
+html{
+    background-color:antiquewhite;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div{
+    font-size: 25px;
+    border: 5px solid white;
+}
+
+#code{
+    height: 120px;
+}
+#front{
+   padding-bottom: 10px;
+   display: inline-block
+   
+}
+
+#back{
+    padding-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    bottom:80px
+}
+
+h1{
+    font-size: 80px;
+    margin-top: 10px;
+}
+
+p{
+    margin-top:-70px;
+}
+
+@media (max-width: 800px) {
+    h1{
+        font-size: 60px;
+    }
+    #back{
+        margin-top: 80px;
+    }
+    
+}
+
+@media (max-width: 450px) {
+    h1{
+        font-size: 40px;
+    }
+} 
